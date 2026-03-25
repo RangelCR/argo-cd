@@ -12,7 +12,7 @@ spec:
     path: k8s
 
   destination:
-    server: https://kubernetes.default.svc
+    server: https://43902f24-b51c-4e1a-a58f-2ef2b4a86cd8.k8s.ondigitalocean.com
     namespace: default
   syncPolicy:
     automated:
