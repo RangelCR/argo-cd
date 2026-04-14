@@ -1,16 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cotacao-web
+  name: tasks
   namespace: argocd
 spec:
   project: default
   source:
-    repoURL: https://github.com/RangelCR/cotacao-web.git
+    repoURL: https://github.com/RangelCR/tasks.git
     path: k8s/
     targetRevision: HEAD
-    directory:
-      include: '{deploy.yaml,service.yaml,namespace.yaml}'
   destination:
     server: https://kubernetes.default.svc
     namespace: hml
