@@ -13,7 +13,7 @@ spec:
       include: '{deploy.yaml,service.yaml,namespace.yaml}'
   destination:
     server: https://kubernetes.default.svc
-    namespace: hml
+    namespace: cotacao-web
   syncPolicy:
     automated:
       prune: true
