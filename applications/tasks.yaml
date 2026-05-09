@@ -9,6 +9,8 @@ spec:
     repoURL: https://github.com/RangelCR/tasks.git
     path: k8s/
     targetRevision: HEAD
+    directory:
+      recurse: true      
   destination:
     server: https://kubernetes.default.svc
     namespace: hml
