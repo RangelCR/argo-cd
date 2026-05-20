@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/RangelCR/conversao-temperatura.git
-    path: k8s/overlays/hml
+    path: k8s/overlays/hml/
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc

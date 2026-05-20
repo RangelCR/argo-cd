@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/RangelCR/argo-cd.git
     targetRevision: main
-    path: applications
+    path: applications/
 
   destination:
     server: https://kubernetes.default.svc
