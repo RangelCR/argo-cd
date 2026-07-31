@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: lab-nginx
+  name: lab-nginx-manual
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: lab-nginx
+      app: lab-nginx-manual
   template:
     metadata:
       labels:
-        app: lab-nginx
+        app: lab-nginx-manual
     spec:
       containers:
         - name: nginx
