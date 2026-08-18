@@ -4,7 +4,7 @@ metadata:
   name: fake-shop
   namespace: argocd
 spec:
-  project: default
+  project: fake-shop-project
   source:
     repoURL: https://github.com/RangelCR/fake-shop.git
     path: k8s/
