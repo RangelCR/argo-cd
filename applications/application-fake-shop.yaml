@@ -6,7 +6,7 @@ metadata:
 spec:
   project: fake-shop-project
   source:
-    repoURL: https://github.com/RangelCR/kube-board.git
+    repoURL: https://github.com/RangelCR/fake-shop.git
     path: k8s/
     targetRevision: HEAD
   destination:
